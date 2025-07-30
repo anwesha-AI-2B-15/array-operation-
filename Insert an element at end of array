@@ -1,1 +1,12 @@
+arr = []
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input(f"Enter element {i+1}: "))
+    arr.append(num)
+
+new_element = int(input("Enter the element to insert at the end: "))
+arr.append(new_element)
+
+print("Updated array:", arr)
 
